@@ -1,12 +1,22 @@
 package org.rajawat.mavenproject;
 
 import org.junit.Before;
+import org.junit.Test;
+
+import static org.junit.Assert.assertNotNull;
 
 public class AppTest{
-    AppTest appTest;
+    App app;
     @Before
     public void setup(){
-        appTest = new AppTest();
+        app = new App();
+        app.setAppName("My First Maven App");
     }
+
+    @Test
+    public void nameTest(){
+        assertNotNull(app.getAppName());
+    }
+
 
 }

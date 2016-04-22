@@ -1,10 +1,14 @@
 package org.rajawat.mavenproject;
 
-/**
- * Hello world!
- *
- */
-public class App 
+public class App
 {
+    private String appName;
 
+    public void setAppName(String appName) {
+        this.appName = appName;
+    }
+
+    public String getAppName() {
+        return appName;
+    }
 }

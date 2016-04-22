@@ -1,13 +1,13 @@
 package org.rajawat.mavenproject.services;
 
 public class AppService {
-    private String appname;
-    public String getAppname() {
-        return appname;
+    private String appName;
+    public String getAppName() {
+        return appName;
     }
 
-    public void setAppname(String appname) {
-        this.appname = appname;
+    public void setAppName(String appName) {
+        this.appName = appName;
     }
 
 
