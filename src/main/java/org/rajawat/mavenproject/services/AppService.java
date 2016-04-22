@@ -1,8 +1,5 @@
-package org.rajawat.mavenproject;
+package org.rajawat.mavenproject.services;
 
-/**
- * Created by rajawatyagya on 21/4/16.
- */
 public class AppService {
     private String appname;
     public String getAppname() {

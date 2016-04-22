@@ -1,22 +1,12 @@
 package org.rajawat.mavenproject;
 
-import org.junit.*;
+import org.junit.Before;
 
-import static org.junit.Assert.assertNotNull;
-
-/**
- * Unit test for simple App.
- */
 public class AppTest{
-    AppService appService = new AppService();
+    AppTest appTest;
     @Before
     public void setup(){
-        appService.setAppname("ooh la la");
+        appTest = new AppTest();
     }
-    @Test
-    public void testToSeeIfThingsWork(){
-        String appName = appService.getAppname();
-        assertNotNull(appName);
 
-    }
 }
